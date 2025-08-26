@@ -1,9 +1,6 @@
 <div id="top"></div>
 
 # AgriTechPro
-
-![AgriTechPro Logo](https://user-images.githubusercontent.com/83681204/159978827-fccf752e-2d36-4dc3-a15a-ce3a57e90165.png)
-
 ---
 
 ## Introduction
@@ -26,8 +23,6 @@ AgriTechPro addresses these challenges with an easy-to-use platform that integra
 
 ## Features
 
-![AgriTechPro Screenshot](https://user-images.githubusercontent.com/83681204/159989052-08ae92b6-015d-4c63-b9d5-9fcb0579caeb.png)
-
 ### 1. Crop Recommendation  
 AgriTechPro analyzes soil properties like nitrogen, phosphorus, potassium (NPK) levels, moisture, temperature, and rainfall to suggest the most suitable crops for your farm. This ensures optimized crop selection tailored to your unique environmental conditions.
 
@@ -37,10 +32,6 @@ Using data such as soil type, pH, temperature, and the selected crop, AgriTechPr
 ### 3. Crop Disease Detection  
 With just an uploaded image of your crop, AgriTechPro’s AI-powered image recognition system identifies diseases and evaluates plant health. This allows for quick interventions to protect your crops and prevent widespread damage.
 
-![Disease Detection](https://user-images.githubusercontent.com/83681204/159994252-6e44cd8e-4d20-4dcb-9e22-c0e35756fe1c.png) 
-
-![Crop Recommendation](https://user-images.githubusercontent.com/83681204/159994452-d6a14dc9-d94f-4beb-8778-6ecdfe48f453.png)
-
 ---
 
 ## How to Use
@@ -48,7 +39,7 @@ With just an uploaded image of your crop, AgriTechPro’s AI-powered image recog
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/kaymen99/AgriTechPro.git
+git clone https://github.com/VivekMohanta03/AgriTechPro.git
 cd AgriTechPro
 ```
 
@@ -73,21 +64,6 @@ cd AgriTechPro
 Visit the app at [http://localhost:5000](http://localhost:5000).
 
 ---
-
-### Run with Docker
-
-1. **Build the Docker image**:
-   ```bash
-   docker build -t AgriTechPro-webapp .
-   ```
-
-2. **Run the container**:
-   ```bash
-   docker run -p 5000:5000 AgriTechPro-webapp
-   ```
-
-Visit the app at [http://localhost:5000](http://localhost:5000).
-
 ---
 
 ## Dataset
